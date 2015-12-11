@@ -6,4 +6,4 @@ function exchange(compName, side)
     if not modem then
         local modem = peripheral.find("modem")
     end
-    modem.
+    modem.transmit(65535
